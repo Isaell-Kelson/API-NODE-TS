@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx --watch src/server.ts",
     "lint": "tsc --noEmit && eslint src",
-    "lint:fix": "eslint src --ext .ts --fix",
+    "lint:fix": "tsc --noEmit && eslint src --fix",
     "format": "prettier --write \"src/**/*.ts\""
   },
   "keywords": [],
