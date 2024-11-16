@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "noEmit": true,
-    // Impede a geração de arquivos JS
     "strict": true,
     "target": "es2022",
     "module": "commonjs",
@@ -10,7 +9,8 @@
     "forceConsistentCasingInFileNames": true
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "knexfile.ts"
   ],
   "exclude": [
     "node_modules"
