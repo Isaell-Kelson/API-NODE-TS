@@ -1,4 +1,4 @@
 node_modules
 .idea
-tmp/app.db
+db/app.db
 .env
